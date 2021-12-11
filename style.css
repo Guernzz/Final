@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #221a16;
+}
+
+nav{
+    height: 100px;
+    width:100%;
+    float: right;
+    background-color: darkred;
+}
+
+.nona{
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    transition: 0.35s;
+    margin: 10px;
+    line-height: 60px;
+}
+
+a{
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    transition: 0.35s;
+    margin: 10px;
+    line-height: 60px;
+    float: right;
+}
+
+.corplogo{
+    height: 100px;
+    width: 300px;
+}
+
+.pagebackground{
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    background-color: darkred;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'eurostile-extended-bold', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    border: 5px solid white;
+
+}
+
+@font-face {
+    font-family: 'eurostile-extended-bold', sans-serif;
+    src: url(https://www.dafontfree.net/embed/ZXVyb3N0aWxlLWV4dGVuZGVkLWJvbGQmZGF0YS8yNC9lLzEyMzg1OS9FdXJvc3RpbGVFeHRlbmRlZEJsYWNrLnR0Zg);
+    font-weight: bold;
+}
+
+.sec1{
+    width: 75%;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'eurostile-extended-bold', sans-serif;
+    font-size: xxx-large;
+    background-color: darkred;
+    border: 5px solid white;
+    padding: 50px 0;
+    margin: 250px;
+    -webkit-text-stroke: 2px black;
+    margin-top: -50px;
+}
+.sec2{
+    display:flex;
+
+}
+
+.imagesec{
+    width: 750px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    margin-bottom: 100px;
+    border: 5px solid white;
+
+}
+.vaccine{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.textsec{
+    background-color: darkred;
+    border: 5px solid white;
+    width: 750px;
+    height: 500px;
+    font-family: 'eurostile-extended-bold', sans-serif;
+}
+
+.textsech1{
+    margin-bottom: 10px;
+    font-size: xx-large;
+    -webkit-text-stroke: 2px black;
+
+}
+
+.textsecp{
+    margin-bottom: 20px;
+    font-size: x-large;
+    -webkit-text-stroke: .5px black;
+
+}
+
+
+
+
+/*-------------------------------------*/
+/*ABOUT PAGE*/
+/*----------------------------------------*/
+
+
+
+.p1{
+    padding-top: 150px;
+    padding-left: 50px;
+    -webkit-text-stroke: .25px black;
+}
+
+.p1ha{
+    text-decoration: white underline;
+}
+
+.p1a{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+
+.p1img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forest{
+    border: 5px solid white;
+    height: 475px;
+    width: 700px;
+}
+
+.Students{
+    border: 5px solid white;
+}
+
+
+
+
+.p2{
+    padding-top: 50px;
+    padding-left: 10px;
+    -webkit-text-stroke: .25px black;
+}
+
+.p2ha{
+    text-decoration: white underline;
+}
+
+.p2a{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 40px;
+}
+
+.beaker{
+    border: 5px solid white;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    margin-bottom: 40px;
+
+}
+
+
+
+/*-----------------*/
+/*PRODUCTS*/
+/*--------------------*/
+
+.products{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottle1{
+    width: 200px;
+    margin-left: 150px;
+    background-color: darkred;
+}
+.bottle1img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    cursor: pointer;
+
+}
+
+
+.bottle2{
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+    background-color: darkred;
+
+}
+.bottle2img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+
+.kit{
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+    background-color: darkred;
+    margin-bottom: 225px;
+
+}
+.kitimg{
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    cursor: pointer;
+
+}
+
+.h1prod{
+    text-decoration: white underline;
+}
+
+.bottle3{
+    height: 300px;
+    width: 300px;
+    background-color: darkred;
+    margin-left: 150px;
+
+}
+.bottle3img{
+    height:150px;
+    width: 150px;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.b1js{
+    position: fixed;
+    left: -150px;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
+.b2js{
+    position: fixed;
+    left: -150px;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
+.b3js{
+    position: fixed;
+    left: -150px;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
+.kitjs{
+    position: fixed;
+    left: -150px;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
+
+/*-----------------*/
+/*CONTACTS*/
+/*-------------------*/
+
+
+
+.conth1{
+}
+
+.socialmedia{
+    border: 5px solid white;
+    height: 600px;
+    width: 600px;
+    margin-bottom: 110px;
+}
+
+.spcaround1{
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.twitter{
+    height:100px;
+    width: 100px;
+}
+
+.contp{
+    padding-top: 40px;
+    font-size: xx-large;
+
+}
+
+.spcaround2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter{
+    height:100px;
+    width: 100px;
+}
+
+.contp{
+    padding-top: 40px;
+    font-size: xx-large;
+
+}
+
+.emails{
+    padding-top: 20px;
+    text-decoration: white underline;
+
+}
+
+
+
